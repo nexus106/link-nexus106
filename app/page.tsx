@@ -1,5 +1,8 @@
 import {
+	Avatar,
+	Box,
 	Button,
+	Center,
 	Link,
 	LinkOverlay,
 	UIProvider,
@@ -11,6 +14,15 @@ const Home = () => {
 	return (
 		<div>
 			<UIProvider>
+			<Box my="10">
+						<Center>
+						<Avatar
+							size="2xl"
+							src="https://avatars.githubusercontent.com/u/65223637?v=4"
+						/>
+						</Center>
+					</Box>
+
 				<VStack>
 					<Button>
 						<LinkOverlay href="https://twitter.com/nexus_106" isExternal>
