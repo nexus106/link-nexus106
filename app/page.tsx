@@ -1,4 +1,10 @@
-import { Button, Link, UIProvider, VStack } from "@yamada-ui/react";
+import {
+	Button,
+	Link,
+	LinkOverlay,
+	UIProvider,
+	VStack,
+} from "@yamada-ui/react";
 import React from "react";
 
 const Home = () => {
@@ -6,21 +12,37 @@ const Home = () => {
 		<div>
 			<UIProvider>
 				<VStack>
-					<Link href="https://twitter.com/nexus_106">
-						<Button>X(Twitter)</Button>
-					</Link>
-					<Link href="https://bsky.app/profile/nexus106.com">
-						<Button>Bluesky</Button>
-					</Link>
-					<Link href="https://www.instagram.com/kosei_du_ub/">
-						<Button>Instagram</Button>
-					</Link>
-					<Link href="https://soundcloud.com/nexus_106">
-						<Button>Soundcloud</Button>
-					</Link>
-					<Link href="https://podcasters.spotify.com/pod/show/nvpptidk4so">
-						<Button>Podcast</Button>
-					</Link>
+					<Button>
+						<LinkOverlay href="https://twitter.com/nexus_106" isExternal>
+							X(Twitter)
+						</LinkOverlay>
+					</Button>
+					<Button>
+						<LinkOverlay
+							href="https://bsky.app/profile/nexus106.com"
+							isExternal
+						>
+							Bluesky
+						</LinkOverlay>
+					</Button>
+					<Button>
+						<LinkOverlay
+							href="https://www.instagram.com/kosei_du_ub/"
+							isExternal
+						>
+							Instagram
+						</LinkOverlay>
+					</Button>
+					<Button>
+						<LinkOverlay href="https://soundcloud.com/nexus_106" isExternal>
+							Soundcloud
+						</LinkOverlay>
+					</Button>
+					<Button>
+						<LinkOverlay href="https://podcasters.spotify.com/pod/show/nvpptidk4so">
+							Podcast
+						</LinkOverlay>
+					</Button>
 				</VStack>
 			</UIProvider>
 		</div>
