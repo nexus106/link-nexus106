@@ -3,7 +3,6 @@ import {
 	Box,
 	Button,
 	Center,
-	Link,
 	LinkOverlay,
 	UIProvider,
 	VStack,
