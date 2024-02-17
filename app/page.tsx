@@ -3,6 +3,7 @@ import {
 	Box,
 	Button,
 	Center,
+	Heading,
 	LinkOverlay,
 	UIProvider,
 	VStack,
@@ -13,14 +14,19 @@ const Home = () => {
 	return (
 		<div>
 			<UIProvider>
-			<Box my="10">
-						<Center>
+				<Box my="10">
+					<Center>
 						<Avatar
 							size="2xl"
 							src="https://avatars.githubusercontent.com/u/65223637?v=4"
 						/>
-						</Center>
-					</Box>
+					</Center>
+				</Box>
+				<Box my="10">
+					<Center>
+						<Heading>Kosei Nakajima</Heading>
+					</Center>
+				</Box>
 
 				<VStack>
 					<Button>
