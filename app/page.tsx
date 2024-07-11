@@ -36,14 +36,6 @@ const Home = () => {
 					</Button>
 					<Button>
 						<LinkOverlay
-							href="https://bsky.app/profile/nexus106.com"
-							isExternal
-						>
-							Bluesky
-						</LinkOverlay>
-					</Button>
-					<Button>
-						<LinkOverlay
 							href="https://www.instagram.com/kosei_du_ub/"
 							isExternal
 						>
