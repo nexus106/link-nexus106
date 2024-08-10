@@ -52,6 +52,11 @@ const Home = () => {
 							Podcast
 						</LinkOverlay>
 					</Button>
+					<Button>
+						<LinkOverlay href="https://github.com/nexus106">
+							GitHub
+						</LinkOverlay>
+					</Button>
 				</VStack>
 			</UIProvider>
 		</div>
