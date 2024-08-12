@@ -7,6 +7,8 @@ import {
 	LinkOverlay,
 	UIProvider,
 	VStack,
+	Text,
+	Link
 } from "@yamada-ui/react";
 import React from "react";
 
@@ -57,6 +59,14 @@ const Home = () => {
 							GitHub
 						</LinkOverlay>
 					</Button>
+					<Box>
+						<Center>
+							<Text>
+								Made with Next.js(Static Exports) &{" "}
+								<Link href="https://yamada-ui.com/ja">Yamada UI</Link>
+							</Text>
+						</Center>
+					</Box>
 				</VStack>
 			</UIProvider>
 		</div>
