@@ -24,9 +24,12 @@ const Home = () => {
 						/>
 					</Center>
 				</Box>
-				<Box my="10">
+				<Box my="5">
 					<Center>
-						<Heading>Kosei Nakajima</Heading>
+						<Heading as="h1" size="xl">Kosei Nakajima</Heading>
+					</Center>
+					<Center>
+						<Heading as="h2" size="md">ねくさす</Heading>
 					</Center>
 				</Box>
 
