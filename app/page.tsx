@@ -49,7 +49,7 @@ const Home = () => {
 					</Button>
 					<Button>
 						<LinkOverlay
-							href="https://www.instagram.com/kosei_du_ub/"
+							href="https://i.kosein.dev/"
 							isExternal
 						>
 							Instagram
